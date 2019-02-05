@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+table {
+    width: 90%;
+    border: 2px solid green;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+caption {
+	margin-bottom: 5px;
+	font-size: 1.5em;
+}
+
+th
+{
+	border: 1px solid blue;
+}
+
+tr
+{
+	border: 1px solid red;
+}
+
+td {
+	border: 1px solid red;
+	padding: 5px;
+	text-align: center;
+}
+
+td:first-child {
+	width: 20%;
+}
